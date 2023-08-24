@@ -13,7 +13,6 @@ function App() {
       <Route path="/product/:productId" exact element={<ProductDetail/>}/>
       <Route>404 Not Found !</Route>
       </Routes>
-
       </BrowserRouter>
     </div>
   );
